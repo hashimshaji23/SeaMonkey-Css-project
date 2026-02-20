@@ -30,6 +30,7 @@ ul{
 .nav-items{
     display: flex;
     justify-content:space-between;
+    align-items: center;
     gap: 25px;
     margin-top: 2%;
     margin-right: 4%;
