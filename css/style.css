@@ -27,6 +27,7 @@ ul{
     margin-left: 4%;
     margin-right: 4%;
 }
+
 .nav-items{
     display: flex;
     justify-content:space-between;
