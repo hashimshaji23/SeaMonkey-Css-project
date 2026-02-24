@@ -213,12 +213,20 @@ body{
 .expedition-imgs{
     height: 90vh;
 }   
-.card-row-tripdetails{
+.card-row-tripdetails{  
     width: 100%;
     height: 60vh;
     display: flex;
     justify-content: center;
     gap: 25px;
+}
+.first-img{
+    transition: transform(0.5s);
+}
+
+.first-img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
 }
 .card-flex{
     display: flex;
@@ -287,6 +295,30 @@ body{
 .trip-button a:hover{
     background-color: #FFA509;
 }
-.first-img{
-    
+
+
+/* GALLERY */
+.gallery{
+    width: 100%;
+    height: 120vh;
+    background-image: url("../images/dark-bg.png");
 }
+.gallery .gallery-head , .gallery-p{
+    color: #fff;
+    text-align: center;
+}
+.gallery-head{
+    margin: 0;
+    padding: 98px 0 0 0;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'b Bagian', sans-serif;
+}
+.gallery-p{
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Rogan', sans-serif;
+}
+
+
