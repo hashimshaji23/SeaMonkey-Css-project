@@ -220,11 +220,13 @@ body{
     justify-content: center;
     gap: 25px;
 }
-.first-img{
-    transition: transform(0.5s);
+.transform-img {
+    overflow: hidden;
+    transition: transform .5s ease-in;
+    border-radius: 6px;
 }
 
-.first-img:hover{
+.transform-img :hover{
     transform: scale(1.1);
     transition-duration: 1s;
 }
@@ -320,5 +322,18 @@ body{
     font-weight: 100;
     font-family: 'Rogan', sans-serif;
 }
-
-
+/* .gallery-imgs{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    "gallery-first-img gallery-second-img gallery-third-img"
+    "gallery-first-img gallery-forth-img";
+} */
+.gallery-imgs{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    /* gap: 5px; */
+    justify-content: center;
+}
